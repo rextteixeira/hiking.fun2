@@ -1,12 +1,8 @@
 # TARGET: today's build
 
-Choose the idea, person, interaction, and visual direction. The agent can help phrase and save your decisions after you approve them. The provided scope and review safeguards stay in place.
-
-- **Thing:** [My one-page website or mini-app and its main interaction.]
-- **Audience:** [One specific person, and what they want to do or understand.]
-- **Requirements:** One working primary interaction; selected states and results are understandable; honor my approved standing rule in AGENTS.md.
-- **Guardrails:** Static browser code. No required external service, keys, accounts, runtime AI, or private data. Label fictional or sample content. Preserve the example and publishing setup. Work on a branch and wait for human review before shipping.
-- **Experience:** [My visual reference or direction and the most important layout or interaction relationship.]
-- **Test:** I can complete the main action, check one boundary or factual claim, and point to my standing rule's effect in the actual preview. After I approve and merge, the same registered Pages URL works.
-
-The coastal example has a [completed TARGET](examples/coast/SPEC.md). It demonstrates the format, not a required topic.
+- **Thing:** Trail League, a one-page recreational hiking competition where a visitor records a hike and sees its effect on individual and school leaderboards.
+- **Audience:** College outdoor-club members who want to compare their hiking activity with people and clubs at other schools.
+- **Requirements:** Let a visitor enter a fictional or local-only hike with miles, elevation gain, participant, and school; update understandable individual and school rankings; allow switching between those two standings; honor the approved standing rule in AGENTS.md.
+- **Guardrails:** Static browser code. No required external service, keys, accounts, runtime AI, or private data. Use clearly labeled sample competitors, schools, activities, and rewards. Do not imply verified tracking, real prize pools, or official school participation. Preserve the example and publishing setup. Work on a branch and wait for human review before shipping.
+- **Experience:** Combine national-park trail signage with a competitive stat sheet: topographic details, mile-marker forms, rugged carved-looking display type, a highly legible humanist sans for dense data, restrained outdoor colors, ranked lists, and large miles, elevation, and rank numerals that remain the visual focus instead of generic dashboard cards.
+- **Test:** I can record a hike, see the activity totals and rankings update, switch between individual and school standings without losing the entered result, check the scoring boundary with a zero or unusually large value, and point to the standing rule’s effect in the preview. After I approve and merge, the same registered Pages URL works.
