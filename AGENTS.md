@@ -19,7 +19,7 @@ After STOP 1, help the student propose and approve the six TARGET lines and one 
 
 ## My standing rule
 
-Every displayed score or rank must show the miles and elevation gain that produced it.
+Only an eligible Strava-imported hike may count as Verified, and every verified rank must show the miles and elevation gain behind it.
 
 ## Workflow
 
