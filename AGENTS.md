@@ -29,7 +29,7 @@ Only an eligible Strava-imported hike may count as Verified, and every verified 
 - Build one page and one primary interaction with ordinary HTML, CSS, and JavaScript plus approved local assets. Do not impose the coastal example's topic, data, or colors.
 - Preserve `examples/`, shared teaching docs, and publishing settings during a student's personal build. Changes to these require an explicit maintainer request. Keep the instructor example self-contained.
 - Separate reference imagery from factual sources. Use licensed or approved assets; label illustrative or fictional content. Do not fabricate metrics, testimonials, integrations, live conditions, or verification.
-- Do not add secrets, private records, runtime model calls, a backend, a required paid service, or unsolicited analytics.
+- Do not add secrets, runtime model calls, a required paid service, or unsolicited analytics. The only permitted backend is the Strava-verification backend explicitly approved in SPEC.md: keep credentials server-side, use least-privilege scopes, retain no route maps or GPS streams, and support user-requested deletion. Do not add unrelated private records.
 - Use safe text rendering, keyboard-operable controls, visible focus, readable contrast, responsive layouts, and reduced-motion support. Prefer short, purposeful transitions over perpetual motion.
 - Run relevant functional and boundary checks. Preview the actual proposed branch before approval and report checks not run. Screenshots or code diffs alone do not establish interactive correctness.
 - After human preview approval, open a PR only when requested. Summarize changed files and tests. Do not merge or publish without explicit approval.
